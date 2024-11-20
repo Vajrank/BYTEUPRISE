@@ -150,6 +150,7 @@ print(df['model'].value_counts())
 modified_df = df.drop("model", axis=1)
 modified_df.head()
 
+
 # In[34]:
 
 fig = plt.figure(figsize=(7,5))
